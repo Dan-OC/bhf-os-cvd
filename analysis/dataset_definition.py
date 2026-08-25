@@ -151,6 +151,10 @@ measures.define_defaults(
 )
 
 measures.define_measure(
+    name="cvd_attendances_monthly_overall"
+)
+
+measures.define_measure(
     name="cvd_attendances_monthly_ages",
     group_by={"age_group": age_group},
 )
