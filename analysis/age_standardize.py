@@ -4,6 +4,8 @@ import numpy as np
 df = pd.read_csv("output/preprocess_results.csv")
 df_pops = pd.read_csv("analysis/europeanpops.csv")
 
+
+
 #Clean text, for join 
 df_pops["AgeGroup"] = df_pops["AgeGroup"].str.replace(" years", "").str.replace("plus", "+")
 #Normalize the population (to max)
