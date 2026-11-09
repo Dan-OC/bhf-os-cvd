@@ -33,6 +33,3 @@ for grouping in ["sex","imd_quintile","ethnicity_group"]:
 
 #Export
 df2.to_csv("output/age_standardized_results.csv", index=False)
-
-
-
